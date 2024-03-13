@@ -1,0 +1,42 @@
+.main_Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right button {
+    padding: 8px 16px;
+    background-color: #f06d6d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    
+  }
+  
+  .right button:hover {
+    background-color: #d32f2f;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  p.completed {
+    text-decoration: line-through;
+  }
+  
